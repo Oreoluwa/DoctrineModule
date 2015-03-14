@@ -4,7 +4,7 @@ Authentication through Doctrine is fully supported by DoctrineModule through an 
 
 ### Simple example
 
-In order to authenticate a user (or anything else) against Doctrine, the following workflow will be use :
+In order to authenticate a user (or anything else) against Doctrine, the following workflow will be used :
 
 1. Create an authentication adapter that contains options about the entity that is authenticated (credential property, identity property…).
 2. Create a storage adapter. If the authentication succeeds, the identifier of the entity will be automatically stored in session.
